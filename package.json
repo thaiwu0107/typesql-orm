@@ -2,8 +2,8 @@
     "name": "typesql-ez",
     "version": "1.0.0",
     "description": "簡單的sql連線操作",
-    "main": "app.js",
-    "types": "dist/app.d.ts",
+    "main": "lib/app.js",
+    "types": "lib/app.d.ts",
     "engines": {
         "node": ">=8.4.0"
     },
