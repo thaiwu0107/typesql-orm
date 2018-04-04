@@ -1,0 +1,56 @@
+{
+    "name": "typesql-ez",
+    "version": "1.0.0",
+    "description": "簡單的sql連線操作",
+    "main": "app.js",
+    "types": "dist/app.d.ts",
+    "engines": {
+        "node": ">=8.4.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thaiwu0107/typesql-ez.git"
+    },
+    "keywords": [
+        "typescript",
+        "sql",
+        "mysql",
+        "mssql",
+        "orm"
+    ],
+    "author": "thaiwu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/thaiwu0107/typesql-ez/issues"
+    },
+    "homepage": "https://github.com/thaiwu0107/typesql-ez#readme",
+    "dependencies": {
+        "find-up": "^2.1.0",
+        "lodash": "^4.17.5",
+        "log4js": "^2.5.3",
+        "mssql": "^4.1.0",
+        "mysql": "^2.15.0",
+        "squel": "^5.12.1",
+        "uuid-with-v6": "^1.1.2"
+    },
+    "devDependencies": {
+        "babel-plugin-istanbul": "^4.1.5",
+        "chai": "^4.1.2",
+        "coveralls": "^3.0.0",
+        "fury": "^3.0.0-beta.6",
+        "mocha": "^5.0.5",
+        "mocha-multi-reporters": "^1.1.7",
+        "mocha-typescript": "^1.1.12",
+        "mochawesome": "^3.0.2",
+        "nyc": "^11.6.0",
+        "source-map-support": "^0.5.4",
+        "tap-nyc": "^1.0.3",
+        "ts-mockito": "^2.3.0",
+        "ts-node": "^5.0.1",
+        "tslint": "^5.9.1",
+        "typescript": "^2.8.1"
+    }
+}
